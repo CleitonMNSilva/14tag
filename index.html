@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portal da Turma de ADS</title>
+        <!-- Define o texto que aparecerá na aba do navegador. -->
+    </head>
+<body>
+    <header>
+        <h1>Portal da Turma de ADS</h1>
+        <!--Cria o título principal da página.-->
+        <nav>
+            <a href="#conteudo">Conteúdo</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+        <!--Reúne os links de navegação.-->
+    </header>
+<main id="conteudo">
+    <section>
+        <p>
+            Aprender HTML é <strong>essencial</strong><br>
+            para criar páginas para a internet.
+        </p>
+        <!--Organiza um trecho em parágrafo.-->
+        <hr>
+
+        <div class="materias">
+            <span>Materias Necessarias Para a Aula:</span>
+
+            <ul>
+                <li>Editor de Código</li>
+                <li>Navegador de Internet</li>
+            </ul>
+            <!--Cria uma lista sem ordem numérica.-->
+            <ol>
+                <li>Escrever o Código HTML</li>
+                <li>Salvar o Arquivo</li>
+                <li>Testar a página no navegador</li>
+            </ol>
+            <!--Cria uma lista ordenada.-->
+        </div>
+        <!--Agrupa conteúdo em bloco.-->
+    <hr>
+    <!-- Separa visualmente dois assuntos. -->
+    </section>
+    <section>
+      <figura>
+        <img src="imagem.jpg" alt="Laboratório de Informática da FMP">
+        <figcaption>
+            Alunos do Curso de <em>Análise e Desenvolvimento de Sistemas</em>
+            praticando HTML.
+        </figcaption>
+      </figura>
+      <!-- Abre um bloco de mídia independente. -->
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <tr>Alunos</tr>
+                <tr>Curso</tr>
+            </tr>
+            <tr>
+                <tr>Ana</tr>
+                <tr>ADS</tr>
+            </tr>
+            <TR>
+                <TR>João</TR>
+                <TR>ADS</TR>
+            </TR>
+        </table>
+        
+        <form id="inscricao" action="/enviar" method="post">
+            <p>Formulário Desmontrativo de Inscrição da Turma.</p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>FMP - Desenvolvimento Web</p>
+</footer>
+</body>
+</html>
